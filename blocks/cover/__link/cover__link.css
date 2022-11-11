@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    min-width: 1184px;
+    min-width: 100%;
     min-height: 740px;
     background-image: linear-gradient(rgba(42,44,47, 0.3), rgba(42, 44, 47, 0.3 )), url("../../../images/__background.png");
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 @media screen and (max-width: 1184px) and (min-width: 0) {
     .cover__link {
-        min-width: 100vw;
+        min-width: 100%;
         min-height: 62.5vw;
     }
     

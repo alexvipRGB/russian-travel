@@ -5,16 +5,16 @@
   padding: 0;
   margin: 0;
   gap: 48px 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 47%);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 928px) {
   .place {
     max-width: 928px;
     max-height: 640px;
     gap: 48px 32px;
+    grid-template-columns: repeat(2, 47.5%);
   }
 
 }
@@ -24,6 +24,9 @@
     max-width: 720px;
     max-height: 581px;
     gap: 48px 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 }
@@ -34,6 +37,7 @@
     max-height: 1042px;
     gap: 32px;
     display: flex;
+    flex-direction: column;
   }
 
 }

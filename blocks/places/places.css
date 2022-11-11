@@ -9,7 +9,7 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 928px) {
     .places {
         max-width: 928px;
     }

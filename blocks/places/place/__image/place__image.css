@@ -5,24 +5,27 @@
     background-size: cover;
     box-sizing: border-box;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) and (min-width: 928px) {
     .place__image {
-        max-width: 440px;
-        max-height: 440px;
+        max-width: 43vw;
+        max-height: 43vw;
     }
-    
+
 }
+
 @media screen and (max-width: 927px) and (min-width: 768px) {
     .place__image {
         max-width: 340px;
         max-height: 340px;
     }
-    
+
 }
+
 @media screen and (max-width: 767px) and (min-width: 0px) {
     .place__image {
         max-width: 320px;
         max-height: 320px;
     }
-    
+
 }
