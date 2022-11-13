@@ -1,0 +1,18 @@
+.lead__image {
+    min-width: 100%;
+    min-height: 615px;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        min-height: 62.5vw;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
