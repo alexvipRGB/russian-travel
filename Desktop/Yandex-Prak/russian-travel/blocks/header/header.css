@@ -1,0 +1,23 @@
+.header {
+  max-width: 1184px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0px 56px 0px;
+  align-items: flex-end;
+}
+@media screen and (max-width: 1280px) {
+  .header {
+    max-width: 90vw;
+    margin-bottom: 48px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-top: 16px;
+  }
+
+}
