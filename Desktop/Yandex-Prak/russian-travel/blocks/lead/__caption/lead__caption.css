@@ -8,9 +8,9 @@
     color: #FFFFFF;
     margin-top: 8px;
 }
-@media screen and (max-width: 768px) and (min-width: 0px) {
+@media screen and (max-width: 768px) {
     .lead__caption {
         margin-top: 8px;
-        margin-left: 5vw;
+        margin-left: 16px;
     }
 }
