@@ -4,10 +4,11 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between; 
+  justify-content: space-between;
   gap: 18px;
   margin: 28px 48px 56px 48px;
 }
+
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 91vw;
