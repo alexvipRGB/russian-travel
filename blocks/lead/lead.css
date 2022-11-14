@@ -21,3 +21,17 @@
     }
 
 }
+
+@media screen and (max-width: 696px) {
+    .lead {
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        align-items: flex-start;
+    }
+    
+}

@@ -22,6 +22,12 @@
 @media screen and (max-width: 1184px) {
     .cover__link {
         min-height: 62.5vw;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
         gap: 16px;
     }
     
