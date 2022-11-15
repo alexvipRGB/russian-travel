@@ -6,7 +6,7 @@
   align-items: self-end;
   justify-content: space-between;
   gap: 18px;
-  margin: 28px 32px 56px 48px;
+  margin: 28px 48px 56px 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +20,7 @@
 @media screen and (max-width: 768px) {
   .header {
     max-width: 720px;
-    margin: 28px 8px 48px 24px;
+    margin: 28px 24px 48px 24px;
   }
 
 }
