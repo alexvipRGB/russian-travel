@@ -2,7 +2,7 @@
   max-width: 984px;
   list-style: none;
   padding: 0;
-  margin: 0 auto 92px auto;
+  margin: 0 auto 92px;
   gap: 80px;
   display: flex;
   flex-direction: column;
@@ -21,35 +21,23 @@
     max-width: 720px;
     margin: 0px auto 90px;
     gap: 73px;
-    margin-bottom: 90px;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 720px;
+    align-items: center;
     margin: 0px 24px 90px 24px;
-    gap: 73px;
-    margin-bottom: 90px;
   }
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 677px) {
   .places {
     max-width: 320px;
     gap: 50px;
-    margin: 0px auto 66px auto;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  .places {
-    max-width: 320px;
-    gap: 50px;
-    margin: 0px 0 66px 0;
+    margin: 0px auto 66px;
   }
 
 }
