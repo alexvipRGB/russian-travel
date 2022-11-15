@@ -1,6 +1,6 @@
 1. Проект: Путешествие по России
 
-Ссылка на макет в Figma https://alexviprgb.github.io/russian-travel/
+Ссылка на макет в Figma https://alexviprgb.github.io/russian-travel/index.html
 
 2. Сайт включает в себя такие технологии как: 
 1) Структура файловой системы по БЭМ
